@@ -6,12 +6,13 @@ on:
         description: Choose the env to deploy
         required: true
         default: dev
+        type: choice
         options:
           - dev
           - test
           - prod
-       tag:
-        description: Choose to deploy
+      tag:
+        description: Choose the tag to deploy
         required: true
 
 jobs:
