@@ -1,0 +1,4 @@
+name: Env Demo
+on: workflow_dispatch
+env:
+  APP_ENV: "Dev"
