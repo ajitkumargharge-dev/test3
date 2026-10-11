@@ -4,7 +4,7 @@ on:
     inputs:
       environment: 
         description: Choose the env to deploy
-        required: true
+        required: false
         default: dev
         type: choice
         options:
