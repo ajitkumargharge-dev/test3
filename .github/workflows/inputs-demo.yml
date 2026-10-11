@@ -2,7 +2,7 @@ name: Inputs Demo
 on: 
   workflow_dispatch:
     inputs:
-      enviornment: 
+      environment: 
         description: Choose the env to deploy
         required: true
         default: dev
