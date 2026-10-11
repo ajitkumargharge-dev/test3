@@ -4,6 +4,8 @@ env:
   APP_ENV: "Dev"
 jobs:
   env_demo:
+    env:
+      APP_ENV: "DEV"
     runs-on: ubuntu-latest
     steps:
       - name: Connecting to env
